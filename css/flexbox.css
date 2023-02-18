@@ -39,8 +39,7 @@
 } 
 .videoSobre .container{
     display: flex;
-    width: fit-content;
-    margin: 0 auto;
+    justify-content: space-around;
 }
 .videoSobre-sobre{
     text-align: center;
