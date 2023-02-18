@@ -1,0 +1,197 @@
+.headerPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerPrincipal-nav{
+    display: flex;
+}
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 2%;
+    margin-right: 5%;
+}
+.rodapePrincipal-contatoForm{
+    width: 25%;
+}
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    height: 16em;
+    flex-wrap: wrap;
+}
+.contenidoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.contenidoPrincipal-cursos-link{
+    display: flex;
+    width: 23%;
+} 
+.videoSobre .container{
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+}
+.videoSobre-sobre{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.videoSobre-sobre-list{
+    flex-grow: 2;
+}
+/*
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.videoSobre-sobre{
+    align-items: center;
+
+}
+.videoSobre-button{
+    transition: 1s;
+}
+.videoSobre-button:hover{
+    
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+}
+*/
+/*Responsive*/
+
+@media screen and (max-width: 850px) {
+    
+    .headerPrincipal .container{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+    .headerPrincipal-nav{
+        flex-direction: column;
+        margin: 2rem;
+        margin-top: 1rem;
+    }
+    .contenidoPrincipal-cursos{
+        flex-direction:initial;
+        
+        margin-bottom: 2rem;
+    }
+    .contenidoPrincipal-cursos-link{
+        width: 40%;
+        height: 7em;
+        flex-wrap: wrap;
+    }
+    .rodapePrincipal-navMap-list{
+        height: auto;
+        flex-wrap: nowrap;
+    }
+    .rodapePrincipal-patrocinadores .container{
+        flex-direction: column;
+    }
+    .rodapePrincipal-contatoForm{
+        width: 100%;
+    }
+    .rodapePrincipal-patrocinadores-list{
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .rodapePrincipal-contatoForm-fieldset{
+        justify-content: center;
+        align-items: center;
+    }
+    .headerPrincipal-nav-link-app{
+        order: -1;
+    }
+    .videoSobre-sobre{
+        padding: 1rem;
+    }
+    .videoSobre-video{
+        width: 350px;
+        height: 200px;
+        padding: 1.5rem;
+    }
+    .videoSobre-sobre-title{
+        font-size: 1.15rem;
+    }
+    .videoSobre-sobre-list{
+        padding: 1rem;
+        font-size: .8rem;
+    }
+    .videoSobre-sobre-list{
+        flex-grow: 11;
+    }
+    .videoSobre-button{
+        font-size: .8rem;
+    }
+    
+    .videoSobre-sobre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width: 675px){
+    .videoSobre-sobre-list{
+        padding: .4rem;
+        font-size: .75rem;
+    }
+    .videoSobre-video{
+        width: 300px;
+        height: 180px;
+        padding: .8rem;
+    }
+    .videoSobre-sobre-title{
+        font-size: 1rem;
+    }
+    .videoSobre-sobre{
+        padding:.8rem;
+    }
+}
+@media screen and (max-width: 580px){
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+    .videoSobre-sobre-list{
+        padding: .4rem;
+        font-size: .75rem;
+    }
+    .videoSobre-video{
+        width: 250px;
+        height: 150px;
+        padding: .5rem;
+    }
+    .videoSobre-sobre-title{
+        font-size: 1rem;
+    }
+    .videoSobre-sobre{
+        padding: .5rem;
+    }
+    
+    .rodapePrincipal-navMap-list{
+        padding: 1rem;
+    }
+    .videoSobre-button{
+        font-size: .7rem;
+        height: 20%;
+    }
+}
+
+
